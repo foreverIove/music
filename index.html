@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/only.css">
+    <link rel="stylesheet" href="./js/jQuery-ui.css">
+</head>
+
+<body>
+
+    <!-- 头部 -->
+
+    <div class="header ">
+        <div class="top-left">
+            <a href="#" class=" top-left-left "> <i class="fa fa-reorder"></i></a>
+        </div>
+        <div class="top-center">
+            <h3>流岚音乐</h3>
+        </div>
+        <div class="top-right">
+            <a href="#"> <i class="fa fa-search"></i></a>
+
+            <!--  -->
+        </div>
+
+
+    </div>
+    <!-- 中间iframe标签 -->
+    <div class="center iframe">
+        <iframe src="htmls/one.html" name="main">
+
+        </iframe>
+
+    </div>
+<!-- 固定兰上 -->
+<div class="footer-top" id="footer-top">
+    <div class="noxz"></div>
+   <div class="xz" id="xz">
+       <img src="./img/xz.png" alt="">
+   </div>
+   <div class="f-t-center"> Learning is like sailing against the current</div>
+    <audio  class="mp3" style=" float: left;" id="mm">
+        <source src="./img/mp2.mp3" type="audio/mp3">
+       
+       
+      </audio>
+      <div class="zt"><img src="./img/an.png" alt="" id="zt"></div>
+      <div class="down" > <img src="./img/next.png" alt=""></div>
+</div>
+    <!-- 固定栏 -->
+    <div class="footer" id="footer">
+        <li>
+            <a href="htmls/one.html" target="main"> <i class="	fa fa-gitlab"></i>
+                <span>首页</span></a>
+        </li>
+        <li>
+            <a href="htmls/two.html" target="main"><i class="fa fa-github-alt"></i>
+                <span>直播</span></a>
+        </li>
+        <li>
+            <a href="htmls/three.html" target="main"><i class="fa fa-optin-monster"></i>
+                <span>MV</span></a>
+        </li>
+        <li>
+            <a href="htmls/four.html" target="main"><i class="fa fa-gamepad"></i>
+                <span>游戏</span></a>
+        </li>
+        <li>
+            <a href="htmls/five.html" target="main"> <i class="fa fa-user"></i>
+                <span>我的</span></a>
+        </li>
+    </div>
+    <!--  -->
+
+    <!-- 左侧任务栏 -->
+    <div class="on-left" id="on-left">
+        <a href="javascript: " id="btn2" >&times;</a>
+          <!-- Accordion -->
+        <div class="accordion-all">
+                <h2 class="demoHeaders">设置</h2>
+                <div id="accordion">
+                    <h3>网络</h3>
+                    <div> 
+                        <li>仅WI-Fi联网</li>
+                        <li>流量提醒</li>
+                        <li>视频自动播放</li>
+                        <li>音乐缓存上限</li>
+                        <li>最近播放列表设置</li>
+                        
+                    </div>
+                    <h3>播放与下载</h3>
+                    <div>
+                            <li>在线听歌品质</li>
+                            <li>歌曲下载品质</li>
+                            <li>边听边存</li>
+                            <li>音效设置</li>
+                            <li>播放设置</li>
+                            <li>歌曲存储位置设置</li>
+                            <li>允许与其他应用同时播放</li>
+                    </div>
+                    <h3>功能与服务</h3>
+                    <div>
+                        <li>桌面插件</li>
+                        <li>锁屏歌词</li>
+                        <li>传歌到手机</li>
+                        <li>车载蓝牙管理</li>
+                        <li>蓝牙音乐管家</li>
+                        <li>铃声管理</li>
+                       
+                    </div>
+                    <h3>通用设置</h3>
+                    <div>
+                        <li>模式选择</li>
+                        <li>流畅度设置</li>
+                        <li>推送设置</li>
+                        <li>消息设置</li>
+                        <li>个人资料</li>
+                        <li>隐私设置</li>
+                        <li>黑名单设置</li>
+                        <li>个性化广告</li>
+                    </div>
+
+                </div>
+        </div>
+        <!-- Accordion -->
+        
+
+    </div>
+    <script src="./js/jQuery 3.6.0.js"></script>
+    <script src="./js/jQuery-ui.js"></script>
+ 
+    <script src="./js/only.js"></script>
+    <script>
+    $( "#accordion" ).accordion();
+ $('.top-right').click(function(){
+    if(confirm("是否跳转到百度页面呢？")) {
+        location.assign("https://www.baidu.com")
+    }
+ })
+    </script>
+</body>
+
+</html>

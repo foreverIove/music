@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* body::-webkit-scrollbar {
+  width: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+html {
+  font-size: 5.33333333vw;
+  background-color: #F6F6F6;
+}
+.w,
+.header,
+.box {
+  width: 17.325rem;
+  margin: 0 auto;
+}
+.header {
+  margin: 0.3rem;
+  width: 18.825rem;
+  position: fixed;
+  top: -0.225rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #F6F6F6;
+  justify-content: space-around;
+}
+.header a {
+  display: block;
+}
+.header > li {
+  flex-grow: 1;
+  text-align: center;
+}
+.header > li:first-child {
+  border-bottom: 5px solid #579dec;
+}
+.box {
+  width: 17.325rem;
+  height: 162.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.box > div {
+  width: 8rem;
+  height: 8rem;
+}
+.box > div span {
+  display: block;
+  margin-top: 7rem;
+  margin-left: 0.25rem;
+  color: #ffff;
+  font-size: 0.25rem;
+}
+.box img {
+  width: 100%;
+}
+.box i {
+  margin-left: 6.25rem;
+  color: #5c5a5a;
+}
+.box div {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+.box div:nth-of-type(1) {
+  background-image: url('../img/zb1.png');
+}
+.box div:nth-of-type(2) {
+  background-image: url('../img/zb2.png');
+}
+.box div:nth-of-type(3) {
+  background-image: url('../img/zb3.png');
+}
+.box div:nth-of-type(4) {
+  background-image: url('../img/zb4.png');
+}
+.box div:nth-of-type(5) {
+  background-image: url('../img/zb5.png');
+}
+.box div:nth-of-type(6) {
+  background-image: url('../img/zb6.png');
+}
+.box div:nth-of-type(7) {
+  background-image: url('../img/zb7.png');
+}
+.box div:nth-of-type(8) {
+  background-image: url('../img/zb8.png');
+}
+.box div:nth-of-type(9) {
+  background-image: url('../img/zb9.png');
+}
+.box div:nth-of-type(10) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201709%2F07%2F20170907191013_AKxsw.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=118b5b54571a7c5ffe3b6b9ec45f99f1');
+}
+.box div:nth-of-type(11) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe5%2F98%2F56%2Fe59856f50907a321fdb2d3ba9e915272.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=b697b9d69a978d68cc2f166f72f9a30a');
+}
+.box div:nth-of-type(12) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F74%2Fea%2F25%2F74ea256e05b9208ac3015e5bcc89a35d.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=9fc0ad34e8cfcc8006417d01880161ee');
+}
+.box div:nth-of-type(13) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fac%2Fb2%2F49%2Facb2492158a5317b5a04961544b10c3b.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=383a6b950bb82e4297b4d864bb465aa6');
+}
+.box div:nth-of-type(14) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201810%2F05%2F20181005203850_cAAYa.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=8071ed954f0e06f17f03fe290db60097');
+}
+.box div:nth-of-type(15) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F02%2F20200402024717_w22Bj.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195897&t=f5640734680be822ff070d912a5a552f');
+}
+.box div:nth-of-type(16) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202004%2F14%2F20200414220230_kKyNY.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195897&t=a13a32b683efd79ee50a741cb5bd7606');
+}
+.box div:nth-of-type(17) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F89%2F11%2F75%2F8911751c883ed106a790ce6df7c8bebe.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195897&t=4bb55a1c8853b00c9b8c8ab64566b83f');
+}
+.box div:nth-of-type(18) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-19ce40cfc10eef1879b2674c3b36daa9_r.jpg%3Fsource%3D1940ef5c&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=0df97a95c0acab201fb9e9abce049abb');
+}
+.box div:nth-of-type(19) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Ff1%2Fb6%2Fd4%2Ff1b6d4d46d60b4c4abfac4bd8171580b.jpeg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=3042e54b1eeaacf36be48897f5106fe0');
+}
+.box div:nth-of-type(20) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic_source%2F79%2Fb0%2F7d%2F79b07d1115702d72746cba3abd643714.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=c85f36e5d9cef3586fa9526c2991c4bd');
+}
+.box div:nth-of-type(21) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fpic2.zhimg.com%2Fv2-25468cbe062e1f23d581a63f06ac8b65_r.jpg%3Fsource%3D1940ef5c&refer=http%3A%2F%2Fpic2.zhimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=39f1d26c55b49bdad0b98229e6419828');
+}
+.box div:nth-of-type(22) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic_source%2Fe9%2F4e%2F40%2Fe94e4097029d56dcff6ce301440bc4b8.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=95fafd019302ff33309e1c2c90fc9a77');
+}
+.box div:nth-of-type(23) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F92%2Fcd%2Fea%2F92cdeaf8ac1f0f1531d791c09184e67f.jpeg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651195988&t=8e530c662c9fac983cb497670b740a1a');
+}
+.box div:nth-of-type(24) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe3%2Fed%2F49%2Fe3ed494939aec2575e6b30b53e78ea4a.jpeg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196253&t=6a00d47e547823b19ba06a0d7ff1e482');
+}
+.box div:nth-of-type(25) {
+  background-image: url('https://pic.rmb.bdstatic.com/1333d398c35f15eba38cd593cfdb290e.jpeg');
+}
+.box div:nth-of-type(26) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202003%2F21%2F20200321093120_xRfC3.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=d5d9f25ff1b72e8a3c5ad3f79d4f88b8');
+}
+.box div:nth-of-type(27) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F81%2F53%2F25%2F815325447f9688b5c28cdbf9e1df1a58.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=8f723562641e8f321835a476dc4ff743');
+}
+.box div:nth-of-type(28) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13496531621%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=10345549e3f4cf81d1fe652a0f0dc481');
+}
+.box div:nth-of-type(29) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F11476967821%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=1716f4a45713e58298a6a81a47aaae22');
+}
+.box div:nth-of-type(30) {
+  background-image: url('../img/zb9.png');
+}
+.box div:nth-of-type(31) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201709%2F07%2F20170907191013_AKxsw.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=118b5b54571a7c5ffe3b6b9ec45f99f1');
+}
+.box div:nth-of-type(32) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2Fe5%2F98%2F56%2Fe59856f50907a321fdb2d3ba9e915272.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=b697b9d69a978d68cc2f166f72f9a30a');
+}
+.box div:nth-of-type(33) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fup.enterdesk.com%2Fedpic%2F74%2Fea%2F25%2F74ea256e05b9208ac3015e5bcc89a35d.jpg&refer=http%3A%2F%2Fup.enterdesk.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651194955&t=9fc0ad34e8cfcc8006417d01880161ee');
+}
+.box div:nth-of-type(34) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201505%2F14%2F20150514193806_GF8ed.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651197031&t=c7afa0957eb8e23abecb5bdd42dce27e');
+}
+.box div:nth-of-type(35) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202003%2F21%2F20200321093120_xRfC3.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=d5d9f25ff1b72e8a3c5ad3f79d4f88b8');
+}
+.box div:nth-of-type(36) {
+  background-image: url('https://gimg2.baidu.com/image_search/src=http%3A%2F%2Finews.gtimg.com%2Fnewsapp_bt%2F0%2F13496531621%2F1000.jpg&refer=http%3A%2F%2Finews.gtimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1651196452&t=10345549e3f4cf81d1fe652a0f0dc481');
+}
