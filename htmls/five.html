@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/four.css">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+      <div style="position: fixed">
+         <button id="btn1">《人间失格》</button>
+        <button id="btn2">《度光阴的人》</button>
+      </div>
+        
+    <div class="center1" id="center1">
+        
+
+    </div>
+
+    <script>
+        var center=document.getElementById("center1")
+      
+
+// 人间失格
+ var btn1=document.getElementById('btn1');
+ var btn2=document.getElementById('btn2');
+ var timer;
+ btn1.onclick=function(){
+   //  center.style.height='600px'
+    clearInterval(timer);
+    var str="____直到现在，我都认为自己是一个人在作战，总有种随时随地会败下阵来的心虚感。但事到临头，我又不能不向那些被自己鄙视的人赔礼道歉，乞求他们收留我。我只能一边喝着低劣的酒，一边继续这场独自的战斗。 我的战斗换句话说，就是与腐朽之物之间的战斗，与那些烂俗的矫情之间的战斗，与那些赤裸裸的伪装之间的战斗，与那些气度狭小的人与事之间的战斗。 我甚至愿意向耶和华发誓。为了这场战斗，我已经丧失了自己的一切，但我仍然只能一个人喝着酒，感受到即将溃不成军的惶恐";
+            var i=0;
+            timer= setInterval(() => {
+     if(i<=str.length){
+        center.innerText=str.slice(0,i++)+"_"
+     }else{
+        center.innerText=str;
+        clearInterval(timer);
+     }
+     
+     
+ }, 100);
+ }
+//  
+btn2.onclick=function(){
+    clearInterval(timer);
+    var str=" 我们生存于世间，常常误以为物质是立身之本，却忘记了光阴才是自己唯一拥有的东西。我们来到人世，得到的不过是一个使用时间，度过光阴的机会。用完了一生，我们才成为一个完整的人。";
+            var i=0;
+            timer= setInterval(() => {
+     if(i<=str.length){
+        center.innerText=str.slice(0,i++)+"_"
+     }else{
+        center.innerText=str;
+        clearInterval(timer);
+     }
+     
+     
+ }, 200);
+ }   
+  
+        </script>
+</body>
+</html>
